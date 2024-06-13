@@ -1,0 +1,167 @@
+*{ margin: 0; box-sizing: border-box;}
+ul{ list-style: none;}
+button{ cursor: pointer;}
+:disabled{ cursor: not-allowed;}
+img{ align-items: center; cursor:pointer;}
+a{ text-decoration: none;}
+html{scroll-behavior: smooth;}
+
+@media screen and (max-width: 1220px) {
+    .container {
+      max-width: 1000px;
+      padding: 0 20px;
+    }
+    .feature {
+      width: 45%;
+    }
+    .agent-card {
+      width: 100%;
+    }
+    .cssheader .btn{display: none;}
+  }
+  
+  @media screen and (max-width: 980px) {
+    .container {
+      max-width: 800px;
+      padding: 0 20px;
+    }
+    nav ul {
+      margin-left: 0;
+      justify-content: space-around;
+    }
+    .feature {
+      width: 100%;
+    }
+    .agent-card {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 600px;
+      padding: 0 20px;
+    }
+    .cssheader {
+      padding: 20px;
+    }
+
+    .icon {display: none;}
+    .cssheader {
+      position: relative;
+      background-color: #342E37;
+  }
+  
+  .cssheader nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  }
+  
+  .collapse ul {
+    position: absolute;
+    display: block;
+    margin-top: 80px;
+    right: -20px;
+    padding-right: 20px;
+    background: linear-gradient(to right, #6f42c1, #4e349e);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    padding: 15px 20px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.collapse ul:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: goldenrod;
+}
+
+.collapse ul li a {
+    line-height: 40px;
+}
+
+.collapse {
+    display: none;
+    clear: both;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 20px
+}
+
+.mob {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    margin: 40px 0;
+}
+    nav img {
+      width: 40px;
+      height: 40px;
+    }
+    .welcome-text h1 {
+      font-size: 36px;
+    }
+    .welcome-text p {
+      font-size: 18px;
+    }
+    .feature {
+      width: 100%;
+    }
+    .agent-card {
+      width: 100%;
+    }
+    .service-card img {
+      width: 100%;
+    }
+    label[for="mob-btn"]{ display: inline-block}
+  }
+  
+  @media screen and (max-width: 460px) {
+    .container {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    nav i {
+      display: none;
+    }
+    nav img {
+      display: none;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .feature {
+      width: 100%;
+    }
+    .agent-card {
+      width: 100%;
+    }
+    .service-card img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .welcome-text h1 {
+      font-size: 32px;
+    }
+    .welcome-text p {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .welcome-text h1 {
+      font-size: 28px;
+    }
+    .welcome-text p {
+      font-size: 14px;
+    }
+  }
+  
