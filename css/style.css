@@ -471,7 +471,7 @@ html {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background: #9df9ef;
-  width: 506px;
+  width: 466px;
   flex: 0 0 auto;
 }
 
@@ -500,7 +500,8 @@ html {
   margin-top: 0;
 }
 
-.specialties, .contact {
+.specialties,
+.contact {
   margin-bottom: 5px;
   font-size: 0.9em;
 }
@@ -559,11 +560,7 @@ html {
   color: #555;
 }
 
-.contact-form input[type=text],
-.contact-form input[type=email],
-.contact-form input[type=tel],
-.contact-form textarea,
-.contact-form select {
+.contact-form input[type=text], .contact-form input[type=email], .contact-form input[type=tel], .contact-form textarea, .contact-form select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -575,11 +572,7 @@ html {
   height: 150px;
 }
 
-.contact-form input[type=text]:focus,
-.contact-form input[type=email]:focus,
-.contact-form input[type=tel]:focus,
-.contact-form textarea:focus,
-.contact-form select:focus {
+.contact-form input[type=text]:focus, .contact-form input[type=email]:focus, .contact-form input[type=tel]:focus, .contact-form textarea:focus, .contact-form select:focus {
   border-color: #007bff;
 }
 
@@ -608,7 +601,6 @@ h1 {
   font-size: 2em;
 }
 
-/* Filter Options */
 .filter-options {
   margin-top: 20px;
   display: flex;
